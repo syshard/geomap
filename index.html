@@ -18,24 +18,24 @@
     <div id="root"></div>
     <h2></h2>
     <div id="mapid"></div>
+    <script src="./assets/js/main.js" type="text/babel"></script>
+    <script src="./assets/js/script.js"></script>
     <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-    <script src="./assets/js/main.js" type="text/babel"></script>
-    <script src="./assets/js/script.js"></script>
     <script type="text/babel">
         function side(){
-    return(
-        <div>            
-            <h1>
-                <i class='bx bxs-map' ></i> Sua localização é:
-            </h1>
-        </div>
-    )
-}
+            return(
+                <div>            
+                    <h1>
+                        <i class='bx bxs-map' ></i> Sua localização é:
+                    </h1>
+                </div>
+            )
+        }
 
-const root=document.getElementById("root")
-ReactDOM.render(<side />,root)
+        const Root=document.getElementById("root")
+        ReactDOM.render(<side />,Root)
     </script>
 </body>
 </html>
