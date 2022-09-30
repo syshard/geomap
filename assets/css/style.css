@@ -1,4 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 #mapid { 
     height: 100%;
     width: 100%;
+}
+.header-site{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.966);
+    color: white;
 }
