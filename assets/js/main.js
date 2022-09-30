@@ -1,14 +1,12 @@
-class HelloMessage extends React.Component {
-    render() {
-      return (
-        <div>
-          Olá, {this.props.name}!
+function side{
+    return(
+        <div>            
+            <h1>
+                <i class='bx bxs-map' ></i> Sua localização é:
+            </h1>
         </div>
-      );
-    }
-  }
-  
-  ReactDOM.render(
-    <HelloMessage name="Taylor" />,
-    document.getElementById("root")
-  );
+    )
+}
+
+const root=document.getElementById("root")
+ReactDOM.render(<side />,root)
