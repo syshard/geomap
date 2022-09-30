@@ -1,4 +1,4 @@
-function side{
+function side(){
     return(
         <div>            
             <h1>
